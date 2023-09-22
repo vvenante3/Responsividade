@@ -1,0 +1,22 @@
+html, body, img, section, section, header{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.header{ 
+    background-color: blue;
+    display: flex;
+}
+.logo{
+    padding: 0.5rem;
+}
+.buttonHome{
+    font-size: 2rem;
+}
+.buttonAbout{
+    font-size: 2rem;
+}
+.botaoLanguage{
+    
+}
