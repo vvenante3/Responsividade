@@ -1,22 +1,37 @@
-html, body, img, section, section, header{
+html, img, section, section, header{
     margin: 0;
     padding: 0;
     border: 0;
+}
+body{
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .header{ 
     background-color: blue;
     display: flex;
+    align-items: center;
 }
 .logo{
     padding: 0.5rem;
 }
+.botoes{
+    margin-left: 80rem;
+    padding: 2rem;
+}
 .buttonHome{
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .buttonAbout{
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .botaoLanguage{
     
+}
+.linha{
+    background-color: black; 
+    height: 0.5rem;
 }
