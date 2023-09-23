@@ -29,9 +29,32 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .botaoLanguage{
-    
+
 }
 .linha{
     background-color: black; 
     height: 0.5rem;
+}
+.titulo{
+    background-color: pink;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 6rem;
+        margin-top: 3rem;
+}
+.textImg {
+    background-color: brown;
+    display: flex;
+    
+}
+.text{
+    font-family:monospace;
+    text-align: left;
+    font-size: 40px;
+    padding-top: 2rem;
+}
+.img{
+    border-radius: 10px;
+}
+.footer{
+    margin-top: 1rem;
 }
