@@ -44,7 +44,6 @@ body{
 .textImg {
     background-color: brown;
     display: flex;
-    
 }
 .text{
     font-family:monospace;
