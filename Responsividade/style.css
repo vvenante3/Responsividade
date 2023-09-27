@@ -6,10 +6,10 @@ html, img, section, section, header{
 body{
     padding-left: 3rem;
     padding-right: 3rem;
+    background-color: #303030;
 }
 
 .header{ 
-    background-color: blue;
     display: flex;
     align-items: center;
 }
@@ -18,37 +18,56 @@ body{
 }
 .botoes{
     margin-left: 80rem;
-    padding: 2rem;
+    width: 18rem;
+    display: flex;
+    justify-content:space-between;
 }
 .buttonHome{
     font-size: 2.5rem;
+    color: #ffffff;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.buttonHome:hover{
+    font-size: 2.7rem;
+    transition: transform 0.5s ease;
 }
 .buttonAbout{
     font-size: 2.5rem;
+    color: #ffffff;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
 }
-.botaoLanguage{
-
+.buttonAbout:hover{
+    font-size: 2.7rem;
+    transition: transform 0.5s ease;
+}
+.botaoLanguage{                                       /* <-- terá que corrigir esse botão */
+    border: 10px solid transparent;
+    padding-left: 2rem;
 }
 .linha{
-    background-color: black; 
-    height: 0.5rem;
+    background-color: #ffffff; 
+    height: 0.2rem;
 }
 .titulo{
-    background-color: pink;
+    color: #ffffff;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 6rem;
         margin-top: 3rem;
 }
 .textImg {
-    background-color: brown;
+    color: #ffffff;
     display: flex;
 }
 .text{
     font-family:monospace;
     text-align: left;
-    font-size: 40px;
+    font-size: 37px;
     padding-top: 2rem;
 }
 .img{
@@ -56,4 +75,5 @@ body{
 }
 .footer{
     margin-top: 1rem;
+    color: #ffffff;
 }
